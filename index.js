@@ -18,10 +18,9 @@ function johnLennonFacts (facts) {
 
 function iLoveTheBeatles (number) {
   var array = [];
-  let i = 0;
   
   function maybeTrue() {
-    return (i < 15 && i < number)
+    return (number < 15)
   }
   
   do {
