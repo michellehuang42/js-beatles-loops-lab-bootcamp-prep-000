@@ -21,7 +21,7 @@ function iLoveTheBeatles (number) {
   let i = 0;
   
   function maybeTrue() {
-    return (i < 15 && i < number)
+    return (i < 15 || i < number)
   }
   
   do {
